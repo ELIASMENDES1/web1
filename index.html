@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Elias Mendes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0; /* Fundo cinza claro */
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      .main-content {
+        background: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        border: 1px solid #f0d10b; /* Bordas amarelas */
+      }
+      h1,
+      h2 {
+        color: #f0a70b; /* Nomes em preto */
+      }
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        border-top: 1px solid #f0d10b; /* Bordas amarelas no topo do rodapé */
+      }
+      footer p {
+        margin: 10px 0;
+      }
+      footer a {
+        color: #f0d10b; /* Links em amarelo */
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #f0d10b; /* Bordas amarelas */
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      .imagem-redimensionada {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+        border: 1px solid #f0d10b; /* Bordas amarelas na imagem */
+        border-radius: 8px; /* Bordas arredondadas na imagem */
+      }
+      .section {
+        margin: 20px 0;
+        padding: 20px;
+        background: #fff;
+        border: 1px solid #f0d10b; /* Bordas amarelas */
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Elias Mendes</h1>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#interesses">Interesses</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <img
+        src="foto minha (2).jpeg"
+        class="imagem-redimensionada"
+        alt="Foto minha"
+      />
+    </div>
+    <div class="container">
+      <div class="main-content" id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá, meu nome é Elias Mendes, nasci em 1999, tenho 24 anos. Estou
+          cursando ADS na Universidade UNORTE. Sou apaixonado por inovação e
+          tecnologia.
+        </p>
+      </div>
+    </div>
+    <section class="section" id="habilidades">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>
+            <strong>Estruturação de Conteúdo:</strong> Habilidade em criar e
+            estruturar páginas web usando HTML, com conhecimento em tags e
+            formulários.
+          </li>
+          <li>
+            <strong>Estilização:</strong> Proficiência em estilizar páginas web
+            com CSS, incluindo a manipulação de cores, fontes, espaçamentos e
+            layouts.
+          </li>
+          <li>
+            <strong>Fundamentos da Programação:</strong> Conhecimento sólido nos
+            conceitos básicos de programação, como estruturas de controle,
+            funções, arrays e manipulação de ponteiros.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="interesses">
+      <div class="container">
+        <h2>Interesses</h2>
+        <p>
+          Tenho um profundo interesse em tecnologia e criação de web, movido
+          pela paixão por desenvolver soluções digitais inovadoras e funcionais.
+          Sou fascinado pelo processo de transformar ideias em interfaces
+          interativas e intuitivas, utilizando HTML e CSS para criar layouts
+          visualmente atraentes e responsivos. A cada projeto, busco aprimorar
+          minhas habilidades técnicas e explorar novas tecnologias para oferecer
+          experiências web excepcionais e eficientes.
+        </p>
+      </div>
+    </section>
+    <section class="section" id="conhecimentos">
+      <div class="container">
+        <h2>Conhecimentos em Tecnologia</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tecnologia</th>
+              <th>Nível</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Avançado</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Avançado</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Básico</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>Intermediário</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>Iniciante</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>
+          Você pode entrar em contato comigo através do meu numero (17)997731277
+          ou e-mail
+          <a href="mailto:mendes.augusto94@gmail.com"
+            >mendes.augusto94@gmail.com</a
+          >
+          ou me encontrar nas redes sociais:
+        </p>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+          <head>
+            <meta charset="UTF-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <title>Inform</title>
+            <style>
+
+              *{
+                margin: 0;
+                padding: 0;
+              }
+              body {
+                font-family: Arial, sans-serif;
+                background-color: #bdb3b3;
+                margin: 0;
+              }
+              .form-container {
+                max-width: 600px;
+                margin: auto;
+                background: #fff;
+                padding: 20px;
+                border: 1px solid #f0d10b; /* Bordas amarelas */
+                border-radius: 8px;
+              }
+              h2 {
+                color: #000; /* Texto preto */
+              }
+              label {
+                display: block;
+                margin: 10px 0 5px;
+              }
+              input[type="text"],
+              input[type="email"],
+              textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              }
+              input[type="radio"],
+              input[type="checkbox"] {
+                margin-right: 10px;
+              }
+              button {
+                background-color: #f0d10b; /* Fundo amarelo */
+                border: none;
+                color: #000; /* Texto preto */
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              button:hover {
+                background-color: #e0c10a; /* Amarelo mais escuro ao passar o mouse */
+              }
+            </style>
+          </head>
+          <body>
+            <div class="form-container">
+              <h2>Informaçoes</h2>
+              <form action="https://formspree.io/f/xvgpygqa" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="_replyto" required />
+
+                <label>Gênero:</label>
+                <label
+                  ><input type="radio" name="genero" value="masculino" />
+                  Masculino</label
+                >
+                <label
+                  ><input type="radio" name="genero" value="feminino" />
+                  Feminino</label
+                >
+                <label
+                  ><input type="radio" name="genero" value="outro" />
+                  Outro</label
+                >
+
+                <label>Interesses:</label>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interesses"
+                    value="tecnologia"
+                  />
+                  Tecnologia</label
+                >
+                <label
+                  ><input type="checkbox" name="interesses" value="design" />
+                  Design</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interesses"
+                    value="programacao"
+                  />
+                  Programação</label
+                >
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  rows="4"
+                  required
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </body>
+        </html>
+      </div>
+    </section>
+    <footer>
+      <p>
+        E-mail:
+        <a href="mailto:mendes.augusto94@gmail.com"
+          >mendes.augusto94@gmail.com</a
+        >
+      </p>
+      <p>
+        Formspree
+        <a href="https://formspree.io/f/xvgpygqa" target="_blank"
+          >https://formspree.io/f/xvgpygqa</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/elias-mendes" target="_blank"
+          >github.com/elias-mendes</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
